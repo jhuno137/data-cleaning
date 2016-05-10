@@ -77,7 +77,7 @@ names <- names(phoneData) # updating names
 # deviation for each measurement (Objective 2) while keeping
 # columns activity and subject which we will using later on
 phoneMeanStdData <- phoneData %>% 
-    select(which(grepl("mean\\(\\)|std\\(\\)|activity|subject",names)))
+    select(which(grepl("mean\\(\\)|std\\(\\)|meanFreq\\(\\)|activity|subject",names)))
 
 names <- names(phoneMeanStdData) # again need to update names
 

@@ -105,7 +105,7 @@ phoneData <- rbind(train,test)
 6. Extract only the measurements on the mean and standard deviation for each measurement, using the fact that each measurement of mean and standard deviation are in columns containing the strings "mean()" and  "std()" respectively (Objective 2)  
 ```
 phoneMeanStdData <- phoneData %>%  
-    select(which(grepl("mean\\(\\)|std\\(\\)|activity|subject",names)))  
+    select(which(grepl("mean\\(\\)|std\\(\\)|meanFreq\\(\\)|activity|subject",names)))  
 ```
 7. Appropriately label the data set with descriptive variable names (Objective 4) by:
     * lowercasing  
