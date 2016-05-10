@@ -149,7 +149,7 @@ The mapping from the original variable names to the corresponding "descriptive" 
 The output of the analysis is the the file 
 
 
-* samsung-data-stats-by-activity-and-subject.csv
+* X_MEAN_mean_Mean_std.txt
 
 
 Each row of this dataset contains:
